@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import CharacterContainer from "./CharacterContainer";
-import NewCharacterForm from "./NewCharacterForm";
 import Search from "./Search";
 
 function CharacterList() {
@@ -17,17 +16,11 @@ function CharacterList() {
     character.character.toUpperCase().includes(searchTerm.toUpperCase())
   );
 
-  const handleAddNewCharacter = (newCharacter) => {
-    setCharacters([...characters, newCharacter]);
-  };
-
   return (
-    <div id="charater-list">
-      <h1>Welcome to all Harry Potter Fans</h1>
-      <p>About HP world, fun fact</p>
+    <div id="character-list">
+      <h1 className="title">Welcome to the Hogwarts Universe!</h1>
       <Search searchTerms={searchTerm} setSearchTerm={setSearchTerm} />
       <CharacterContainer charactersToDisplay={charactersToDisplay} />
-      <NewCharacterForm handleAddNewCharacter={handleAddNewCharacter} />
     </div>
   );
 }
