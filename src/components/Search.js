@@ -6,8 +6,9 @@ function Search({ searchTerm, setSearchTerm }) {
   };
 
   return (
-    <div className="search">
+    <div>
       <input
+        className="search"
         type="search"
         onChange={handleChange}
         value={searchTerm}

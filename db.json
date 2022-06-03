@@ -7,6 +7,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Daniel Radcliffe",
+      "description": "Harry James Potter was an English half-blood wizard, and one of the most famous wizards of modern times. The only child and son of James and Lily Potter, Harry's birth was overshadowed by a prophecy, naming either himself or Neville Longbottom as the one with the power to vanquish Lord Voldemort, the most powerful and feared Dark Wizard in the world. ",
       "child": [
         "James Sirius Potter",
         "Albus Severus Potter",
@@ -21,6 +22,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Emma Watson",
+      "description": "Hermione Granger was an English Muggle-born witch born to Mr and Mrs Granger. At the age of eleven, she learned about her magical nature and was accepted into Hogwarts School of Witchcraft and Wizardry. She is one of Harry's best friends.",
       "child": [
         "Rose Granger-Weasley",
         "Hugo Granger-Weasley"
@@ -34,6 +36,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Rupert Grint",
+      "description": "Ronald Bilius Weasley was an English pure-blood wizard, the sixth and youngest son of Arthur and Molly Weasley. He was also the younger brother of Bill, Charlie, Percy, Fred, George, and the elder brother of Ginny. He is one of Harry's best friends.",
       "child": [
         "Rose Granger-Weasley",
         "Hugo Granger-Weasley"
@@ -46,6 +49,7 @@
       "nickname": "Fred",
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
+      "description": "Fred Weasley I was an English pure-blood wizard, was the fourth son and the middle child, the most daring and dominant among the twins of Arthur Weasley and Molly Weasley, younger brother to Bill, Charlie and Percy, older twin brother and best friend to George Weasley, and older brother of Ron and Ginny. He opened a store called Zonko's Joke Shop with his twin George.",
       "interpretedBy": "James Phelps",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/fred_weasley.png"
@@ -57,6 +61,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Oliver Phelps",
+      "description": "George Weasley was an English pure-blood wizard, was the fourth son and the middle child, the most daring and dominant among the twins of Arthur Weasley and Molly Weasley, younger brother to Bill, Charlie and Percy, younger twin brother and best friend to Fred Weasley, and older brother of Ron and Ginny. He opened a store called Zonko's Joke Shop with his twin Fred.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/george_weasley.png"
     },
@@ -67,6 +72,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Domhnall Gleeson",
+      "description": "William Arthur Weasley was the first child of Arthur and Molly Weasley and the eldest brother of Charlie, Percy, George, Ron, Ginny and Fred Weasley. He attended Hogwarts School of Witchcraft and Wizardry from September 1982 to June 1989, and was both a prefect and Head Boy. After graduating, he went to work for Gringotts Wizarding Bank as a Curse Breaker, working in Egypt.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/bill_weasley.png"
     },
@@ -77,6 +83,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Chris Rankin",
+      "description": "Percy Ignatius Weasley was a pure-blood wizard, the third child of Arthur and Molly Weasley, the younger brother of Bill and Charlie and the older brother of Ron, Ginny and George Weasley and the late Fred Weasley. He attended Hogwarts School of Witchcraft and Wizardry from 1987 to 1994, and was both a prefect and Head Boy. ",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/percy_weasley.png"
     },
@@ -87,6 +94,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "ninguno",
+      "description": "Charles Weasley was an English pure-blood wizard, the second eldest son of Arthur and Molly Weasley, younger brother of Bill Weasley and the elder brother of Percy, the late Fred, George, Ron, and Ginny.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/charlie_weasley.png"
     },
@@ -97,6 +105,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Bonnie Right",
+      "description": "",
       "child": [
         "James Sirius Potter",
         "Albus Severus Potter",
@@ -111,6 +120,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Julie Walters",
+      "description": "Molly Weasley was an English pure-blood witch and matriarch of the Weasley family after marrying Arthur Weasley. Molly was a member of the revived Order of the Phoenix following the return of Lord Voldemort. ",
       "child": [
         "Ron Weasley",
         "Fred Weasley",
@@ -129,6 +139,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Mark Williams",
+      "description": "Arthur Weasley was an English pure-blood wizard in the employ of the Ministry of Magic, as well as a member of the second Order of the Phoenix. He was a staunch believer in the equality of all magical and Muggle folk and was the head of the Weasley family.",
       "child": [
         "Ron Weasley",
         "Fred Weasley",
@@ -147,6 +158,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Matthew Lewis",
+      "description": "Neville Longbottom was a British pure-blood wizard, the only child and son of Frank and Alice Longbottom. Neville's parents were well-respected Aurors and members of the original Order of the Phoenix until they were tortured into insanity by Bellatrix Lestrange and three other Death Eaters with the Cruciatus Curse when he was about sixteen months old. They were placed in the Janus Thickey Ward at St Mungo's Hospital for Magical Maladies and Injuries, leaving Neville to be raised by his grandmother, Augusta Longbottom.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/neville_longbottom.png"
     },
@@ -157,6 +169,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Ravenclaw",
       "interpretedBy": "Evanna Lynch",
+      "description": "Luna Lovegood was a witch and the only child and daughter of Xenophilius and Pandora Lovegood. Her mother accidentally died while experimenting with spells when Luna was nine and Luna was raised by her father, editor of the magazine The Quibbler, in a rook-like house near the village of Ottery St Catchpole in Devon.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/luna_lovegood.png"
     },
@@ -167,6 +180,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Slytherin",
       "interpretedBy": "Tom Felton",
+      "description": "Draco Lucius Malfoy was a British pure-blood wizard and the only son of Lucius and Narcissa Malfoy. The son of a Death Eater, Draco was raised to strongly believe in the importance of blood purity. He looked down on half-bloods and Muggle-borns.",
       "child": [
         "Scorpius Malfoy"
       ],
@@ -179,6 +193,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Richard Harris",
+      "description": "Professor Albus Percival Wulfric Brian Dumbledore was an English half-blood wizard. He was the Defence Against the Dark Arts Professor, later the Transfiguration Professor, and later the Headmaster of Hogwarts School of Witchcraft and Wizardry.  ",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/albus_dumbledore.png"
     },
@@ -189,6 +204,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Maggie Smith",
+      "description": "Professor Minerva McGonagall was a Scottish half-blood witch, the only daughter of Muggle Robert McGonagall and witch Isobel Ross. She also was the older sister of Malcolm and Robert Jnr. Minerva attended Hogwarts School of Witchcraft and Wizardry and was Sorted into Gryffindor House, but it took the Sorting Hat five and a half minutes to decide if she was Gryffindor or Ravenclaw, which made her a Hatstall. She was the Transfiguration professor at Hogwarts and would later become Headmistress of Hogwarts",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/minerva_mcgonnagall.png"
     },
@@ -199,6 +215,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "David Thewils",
+      "description": "Remus Lupin, also known as Moony, was a half-blood wizard and the only son of Lyall and Hope Lupin. He was attacked by werewolf Fenrir Greyback when he was a child, a result of Greyback's revenge against Lyall, leaving Remus afflicted with lycanthropy for life.He attended Hogwarts School of Witchcraft and Wizardry from 1971 to 1978 and was sorted into Gryffindor House. During his school years he was one of the Marauders, best friends with Sirius Black, James Potter, and Peter Pettigrew. Together, they created the Marauder's Map.",
       "child": [
         "Ted Lupin"
       ],
@@ -211,6 +228,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Robbie Coltrane",
+      "description": "Professor Rubeus Hagrid was an English half-giant wizard, son of Mr Hagrid and the giantess Fridwulfa, and elder half-brother of the giant Grawp. Hagrid stood at eleven feet, six inches tall. He was the gamekeeper of Hogwarts and later the Care of Magical Creatures professor.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/rubeus_hagrid.png"
     },
@@ -221,6 +239,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Gryffindor",
       "interpretedBy": "Gary Oldman",
+      "description": "Sirius Black III, also known as Padfoot, was an English pure-blood wizard, the older son of Orion and Walburga Black, the brother of Regulus Black, and godfather of Harry Potter. He was sorted into Gryffindor and became best friends with James Potter, Remus Lupin, and Peter Pettigrew. He was wrongfully accused of murdering his friend Peter Pettigrew and sentenced to Azkaban.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/sirius_black.png"
     },
@@ -231,6 +250,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Slytherin",
       "interpretedBy": "Alan Rickman",
+      "description": "Professor Severus Snape was an English half-blood wizard serving as Potions Master, Head of Slytherin House, Defence Against the Dark Arts professor (1996-1997), and Headmaster of the Hogwarts School of Witchcraft and Wizardry as well as a member of the Order of the Phoenix and a Death Eater.",
       "child": [],
       "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/severus_snape.png"
     },
@@ -241,6 +261,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Slytherin",
       "interpretedBy": "Helena Bonham Carter",
+      "description": "Bellatrix Lestrange was a British witch, the eldest daughter of Cygnus and Druella Black, cousin of Regulus and Sirius Black, and the elder sister of Andromeda Tonks and Narcissa Malfoy. After Voldemort's fall from power, Bellatrix, her husband Rodolphus Lestrange, her brother-in-law Rabastan Lestrange, and Barty Crouch Jnr captured and tortured the Aurors Frank and Alice Longbottom, seeking information about Voldemort's whereabouts which eventually drove the two Aurors insane. The four Death Eaters were caught and sentenced to life imprisonment in Azkaban. ",
       "child": [
         "Delphi"
       ],
@@ -253,6 +274,7 @@
       "hogwartsStudent": true,
       "hogwartsHouse": "Slytherin",
       "interpretedBy": "Ralph Fiennes",
+      "description": "Tom Marvolo Riddle, later known as Lord Voldemort or, alternatively as You-Know-Who, the Dark Lord, or He-Who-Must-Not-Be-Named was an English half-blood wizard considered to have been the most powerful and dangerous Dark Wizard of all time. He was amongst the greatest wizards to have ever lived, often considered more powerful or equal to Albus Dumbledore.",
       "child": [
         "Delphi"
       ],
@@ -263,10 +285,18 @@
       "character": "Argus Filch",
       "nickname": "Filch",
       "hogwartsStudent": false,
-      "hogwartsHouse": "ninguna",
+      "hogwartsHouse": "none",
       "interpretedBy": "David Bradley",
+      "description": "Argus Filch was a Squib and the caretaker of Hogwarts School of Witchcraft and Wizardry since around 1973. Filch usually wandered around the school corridors with his cat Mrs Norris, trying to catch students breaking the school rules and complaining about Peeves the Poltergeist.",
       "child": [],
-      "image": "https://raw.githubusercontent.com/fedeperin/harry-potter-api-english/main/images/argus_filch.png"
+      "image": "https://images.ctfassets.net/usf1vwtuqyxm/62PpcDcjf248wsUcK6GGIS/be94d9b827c3c76f2905dc9b206109b7/WB_F4_ArgusFilch_FilchStoodInCorridor_C394-7.jpg"
+    },
+    {
+      "character": "Cedric Diggory",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png",
+      "hogwartsHouse": "Hufflepuff",
+      "description": "Cedric Diggory was a British wizard who was the only child of Amos Diggory. He started attending Hogwarts School of Witchcraft and Wizardry in 1989 and was sorted into the Hufflepuff House. In his sixth year, Cedric put his name forward to compete in the Triwizard Tournament.\"",
+      "id": 24
     }
   ]
 }
