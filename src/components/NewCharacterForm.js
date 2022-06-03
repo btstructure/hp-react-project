@@ -5,6 +5,7 @@ function NewCharacterForm({ handleAddNewCharacter }) {
     character: "",
     image: "",
     hogwartsHouse: "",
+    description: "",
   });
 
   const handleChange = (event) => {
@@ -23,26 +24,61 @@ function NewCharacterForm({ handleAddNewCharacter }) {
     })
       .then((res) => res.json())
       .then((newCharacter) => handleAddNewCharacter(newCharacter))
-      .then(setFormData({ character: "", image: "", hogwartsHouse: "" }))
+      .then(
+        setFormData({
+          character: "",
+          image: "",
+          hogwartsHouse: "",
+          description: "",
+        })
+      );
   };
-  // get info on how to do Drop Down selection in form
-  // place between  character Name and onsubmit input field
+
   return (
-    <div className="form" onSubmit={handleSubmit}>
-      <h3>Add a character!</h3>
-      <form>
-        <input
-          name="image"
-          placeholder="Image URL"
-          onChange={handleChange}
-          value={formData.image}
-        ></input>
+    <div>
+      <h1 className="addcharacter-page-header">Add a New Character!</h1>
+      <form className="form" onSubmit={handleSubmit}>
+        <label className="label-name" htmlFor="name">
+          Name
+        </label>
         <input
           name="character"
           placeholder="Character Name"
           onChange={handleChange}
           value={formData.character}
         ></input>
+        <label className="label-image" htmlFor="Image">
+          Image
+        </label>
+        <input
+          name="image"
+          placeholder="Image URL"
+          onChange={handleChange}
+          value={formData.image}
+        ></input>
+        <label className="label-house" htmlFor="house">
+          House
+        </label>
+        <select
+          onChange={handleChange}
+          name="hogwartsHouse"
+          value={formData.hogwartsHouse}
+        >
+          <option value="">Select a House</option>
+          <option value="Gryffindor">Gryffindor</option>
+          <option value="Slytherin">Slytherin</option>
+          <option value="Ravenclaw">Ravenclaw</option>
+          <option value="Hufflepuff">Hufflepuff</option>
+          <option value="None">None</option>
+        </select>
+        <label className="label-description" htmlFor="description">
+          About
+        </label>
+        <textarea
+          onChange={handleChange}
+          name="description"
+          value={formData.description}
+        ></textarea>
         <button type="submit">Submit</button>
       </form>
     </div>

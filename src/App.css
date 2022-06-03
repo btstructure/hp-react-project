@@ -1,38 +1,215 @@
-.App {
+/*
+  ========================================
+  Body custom Styles
+  ========================================
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Harry Potter', sans-serif;
+  background: linear-gradient(
+    to left,
+    rgb(15, 8, 8) 0%,
+    rgb(93, 92, 91) 100%
+  );
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+  ========================================
+  Title custom Styles
+  ========================================
+*/
+
+.title {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 80px;
+  background: linear-gradient(to left, #eddb66 22%,#4f3f0e 24%, #d0bd70 26%, #937b25 27%,#d7bb60 40%,#eadca5 78%);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+  font-family: 'Harry Potter', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+  ========================================
+  Home Page Custom Styles
+  ========================================
+*/
+
+.home {
+    background: linear-gradient(to left, #eddb66 22%,#4f3f0e 24%, #d0bd70 26%, #937b25 27%,#d7bb60 40%,#eadca5 78%);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+  font-family: 'Harry Potter', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.poem {
+  font-size: large;
+}
+
+/*
+  ========================================
+  NavBar Custom styles
+  ========================================
+*/
+
+.navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  background: transparent;
+}
+
+.navigation a {
+  font-size: x-large;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation a:hover {
+  background: gold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
   }
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+/*
+  ========================================
+  Character list and card Custom styles
+  ========================================
+*/
+.card-container {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.character:hover {
+  transform: scale(1.05);
+}
+
+.character-name {
+  color: gold;
+}
+
+.character-house {
+  color: gold;
+}
+.char-detail-box {
+  color: gold;
+}
+
+.character-detail-box {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+h4 {
+  font-size: 2.0em;
+}
+
+.likes {
+  background: transparent;
+  border-color:rgb(247, 182, 18);
+}
+
+textarea {
+  width: 494px;
+  height: 100px;
+}
+
+/*
+  ========================================
+  Form Custom styles
+  ========================================
+*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid var(--dark-turquoise);
+  padding: 1.75rem;
+}
+
+.addcharacter-page-header {
+  font-size: 3.0em;
+  color: gold;
+}
+
+.label-image,
+.label-name,
+.label-house,
+.label-description {
+  font-size: x-large;
+  color: gold;
+}
+
+/*
+  ========================================
+  Search Custom styles
+  ========================================
+*/
+
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 160px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: medium;
 }
