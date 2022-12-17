@@ -6,7 +6,7 @@ function CharacterContainer({ charactersToDisplay }) {
   const charCard = charactersToDisplay.map((character) => {
     return (
       <Link
-        to={`/characters/${character.id}`}
+        to={`https://hp-backend-json.onrender.com/characters/${character.id}`}
         style={{ textDecoration: "none" }}
       >
         <CharacterCard key={character.id} chars={character} />

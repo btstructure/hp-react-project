@@ -7,7 +7,7 @@ function CharacterList() {
   const [searchTerm, setSearchTerm] = useState("");
   // when using fetch make sure the local host is matching with your json server port
   useEffect(() => {
-    fetch("http://localhost:3001/characters")
+    fetch("https://hp-backend-json.onrender.com/characters")
       .then((res) => res.json())
       .then(setCharacters);
   }, []);

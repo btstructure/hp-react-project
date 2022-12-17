@@ -15,7 +15,7 @@ function NewCharacterForm({ handleAddNewCharacter }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3001/characters", {
+    fetch("https://hp-backend-json.onrender.com/characters", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
